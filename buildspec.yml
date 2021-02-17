@@ -8,7 +8,6 @@ phases:
   post_build:
     commands:
       - echo Build completed successfully
-      - mvn sonar:sonar -Dsonar.projectKey=Order_Service_App  -Dsonar.host.url=http://localhost:9000  -Dsonar.login=c3bc7d3ec97fc40828218304e350a7621abd26dc
 artifacts:
   files:
     - target/order-service.jar
